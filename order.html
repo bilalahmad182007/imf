@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Aurix Motors | Order</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #101010;
+    color: white;
+}
+
+header {
+    background: #080808;
+    padding: 22px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #e5b52e;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #e5b52e;
+}
+
+.heading {
+    text-align: center;
+    padding: 60px 20px;
+    background: #1c1c1c;
+}
+
+.heading h1 {
+    color: #e5b52e;
+    font-size: 40px;
+}
+
+.order-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #202020;
+    border-radius: 10px;
+}
+
+.order-container h2 {
+    text-align: center;
+    color: #e5b52e;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 20px;
+    background: #111;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #e5b52e;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.whatsapp {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.whatsapp a {
+    display: inline-block;
+    padding: 14px 25px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    background: black;
+    padding: 25px;
+    text-align: center;
+    color: #aaa;
+}
+
+@media(max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav a {
+        margin: 6px;
+        display: inline-block;
+    }
+
+    .order-container {
+        margin: 20px;
+        padding: 25px;
+    }
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">AURIX MOTORS</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cars.html">Our Cars</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="order.html">Order</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+
+<section class="heading">
+
+    <h1>PLACE YOUR ORDER</h1>
+
+    <p>Choose your preferred automobile.</p>
+
+</section>
+
+
+<div class="order-container">
+
+    <h2>Order Information</h2>
+
+    <form action="https://wa.me/923236105179" method="get" target="_blank">
+
+        <label>Customer Name</label>
+
+        <input type="text" name="text"
+        placeholder="Enter your full name" required>
+
+        <label>Phone Number</label>
+
+        <input type="tel"
+        placeholder="Enter your phone number" required>
+
+        <label>Select Automobile</label>
+
+        <select required>
+
+            <option value="">Select Your Car</option>
+
+            <option>Automobile 01</option>
+            <option>Automobile 02</option>
+            <option>Automobile 03</option>
+            <option>Automobile 04</option>
+            <option>Automobile 05</option>
+            <option>Automobile 06</option>
+            <option>Automobile 07</option>
+            <option>Automobile 08</option>
+            <option>Automobile 09</option>
+            <option>Automobile 10</option>
+            <option>Automobile 11</option>
+            <option>Automobile 12</option>
+
+        </select>
+
+        <label>Additional Information</label>
+
+        <textarea rows="5"
+        placeholder="Write your requirements"></textarea>
+
+        <button type="submit">
+            SUBMIT ORDER
+        </button>
+
+    </form>
+
+
+    <div class="whatsapp">
+
+        <p>Or contact us directly through WhatsApp.</p>
+
+        <br>
+
+        <a href="https://wa.me/923236105179?text=Hello%20Aurix%20Motors,%20I%20want%20to%20place%20an%20order."
+        target="_blank">
+
+            ORDER THROUGH WHATSAPP
+
+        </a>
+
+    </div>
+
+</div>
+
+
+<footer>
+    © 2026 AURIX MOTORS. All Rights Reserved.
+</footer>
+
+</body>
+</html>

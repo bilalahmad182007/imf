@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aurix Motors | Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #101010;
+            color: white;
+        }
+
+        header {
+            background: #080808;
+            padding: 22px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 27px;
+            font-weight: bold;
+            color: #e5b52e;
+            letter-spacing: 2px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #e5b52e;
+        }
+
+        .hero {
+            height: 570px;
+            background:
+            linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),
+            url("1.jfif");
+
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 9%;
+        }
+
+        .hero h1 {
+            font-size: 58px;
+            max-width: 650px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #ddd;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: #e5b52e;
+            color: black;
+            text-decoration: none;
+            padding: 15px 30px;
+            display: inline-block;
+            width: fit-content;
+            font-weight: bold;
+            border-radius: 4px;
+        }
+
+        .section {
+            padding: 70px 7%;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .section p {
+            color: #aaa;
+            margin-bottom: 40px;
+        }
+
+        .cars {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .card {
+            background: #1d1d1d;
+            width: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            height: 210px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            padding: 15px;
+            color: #e5b52e;
+        }
+
+        .card p {
+            padding: 0 15px;
+        }
+
+        .card a {
+            margin: 15px;
+        }
+
+        .features {
+            background: #191919;
+            padding: 65px 7%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+            gap: 30px;
+        }
+
+        .feature h3 {
+            color: #e5b52e;
+            margin-bottom: 12px;
+        }
+
+        footer {
+            background: #050505;
+            text-align: center;
+            padding: 30px;
+            color: #aaa;
+        }
+
+        footer span {
+            color: #e5b52e;
+        }
+
+        @media(max-width: 768px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav a {
+                margin: 7px;
+                display: inline-block;
+            }
+
+            .hero h1 {
+                font-size: 38px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">AURIX MOTORS</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="cars.html">Our Cars</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="order.html">Order</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+</header>
+
+
+<section class="hero">
+
+    <h1>DRIVE YOUR DREAMS WITH AURIX</h1>
+
+    <p>Experience Luxury, Performance and Innovation.</p>
+
+    <a href="cars.html" class="btn">EXPLORE OUR CARS</a>
+
+</section>
+
+
+<section class="section">
+
+    <h2>Featured Collection</h2>
+
+    <p>Discover our premium collection of automobiles.</p>
+
+    <div class="cars">
+
+        <div class="card">
+            <img src="2.jfif">
+            <h3>Premium Collection</h3>
+            <p>Explore our premium automobile collection.</p>
+            <a href="cars.html" class="btn">Explore</a>
+        </div>
+
+        <div class="card">
+            <img src="3.jfif">
+            <h3>Luxury Collection</h3>
+            <p>Experience comfort and modern design.</p>
+            <a href="cars.html" class="btn">Explore</a>
+        </div>
+
+        <div class="card">
+            <img src="4.jfif">
+            <h3>Sports Collection</h3>
+            <p>Discover power and performance.</p>
+            <a href="cars.html" class="btn">Explore</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="features">
+
+    <div class="feature">
+        <h3>Premium Quality</h3>
+        <p>Quality-focused automobile selection.</p>
+    </div>
+
+    <div class="feature">
+        <h3>Customer Support</h3>
+        <p>Professional customer assistance.</p>
+    </div>
+
+    <div class="feature">
+        <h3>Easy Ordering</h3>
+        <p>Contact us directly through WhatsApp.</p>
+    </div>
+
+</section>
+
+
+<footer>
+
+    <p>© 2026 <span>AURIX MOTORS</span>. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+</html>
